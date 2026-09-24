@@ -48,7 +48,7 @@ parser.add_argument("--interest-batch", action="append", default=[], type=Path)
 parser.add_argument(
     "--registry",
     type=Path,
-    default=PROJECT_ROOT / "interest_engine" / "resources" / "entity-registry-v1.json",
+    default=PROJECT_ROOT / "interest_engine" / "resources" / "entity-registry.db-v3.json",
 )
 args = parser.parse_args()
 

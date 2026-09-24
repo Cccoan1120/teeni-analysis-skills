@@ -3,11 +3,19 @@ import io
 import json
 import unittest
 
-from interest_engine.cli import main
+from interest_engine.cli import DEFAULT_REGISTRY, main
+from interest_engine.contracts import sha256_file
+from interest_engine.registry import EntityRegistry
 from interest_engine.tests.test_analysis import InterestAnalysisTests
 
 
 class InterestCliTests(InterestAnalysisTests):
+    def test_default_registry_is_reviewed_db_v3(self):
+        registry = EntityRegistry.from_json(DEFAULT_REGISTRY)
+        self.assertEqual(registry.version, "db-v3")
+        self.assertEqual(len(registry.entities), 232)
+        self.assertEqual(sha256_file(DEFAULT_REGISTRY), "6c1f0d701146f73cb16d222ff60c45d003896e940debd05e2085fd57a069d3f2")
+
     def test_analyze_and_verify_commands(self):
         output = self.root / "cli-output"
         analyze_stdout = io.StringIO()

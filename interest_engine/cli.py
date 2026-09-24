@@ -10,7 +10,7 @@ from .model import LocalCandidatePassthroughEnricher, QwenCandidateEnricher
 from .verify import verify
 
 
-DEFAULT_REGISTRY = Path(__file__).resolve().parent / "resources" / "entity-registry-v1.json"
+DEFAULT_REGISTRY = Path(__file__).resolve().parent / "resources" / "entity-registry.db-v3.json"
 
 
 def _history(paths: list[str]) -> list[dict]:

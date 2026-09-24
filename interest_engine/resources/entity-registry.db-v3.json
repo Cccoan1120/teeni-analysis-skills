@@ -1,0 +1,5014 @@
+{
+  "schemaVersion": "teeni-interest-registry/1.1.0",
+  "registryVersion": "db-v3",
+  "entities": [
+    {
+      "id": "IE0001",
+      "canonicalName": "奥特曼",
+      "entityType": "作品",
+      "entitySubtype": "特摄",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "奥特曼",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "ultraman",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小爱",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0002",
+      "canonicalName": "熊出没",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "熊出没",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0003",
+      "canonicalName": "喜羊羊与灰太狼",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "喜羊羊与灰太狼",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "喜羊羊",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "灰太狼",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0004",
+      "canonicalName": "猪猪侠",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "猪猪侠",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0005",
+      "canonicalName": "超级飞侠",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "超级飞侠",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0006",
+      "canonicalName": "汪汪队立大功",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "汪汪队立大功",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "汪汪队",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0007",
+      "canonicalName": "小猪佩奇",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小猪佩奇",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "佩奇",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "乔治",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0008",
+      "canonicalName": "海底小纵队",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "海底小纵队",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小纵队",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0009",
+      "canonicalName": "精灵梦叶罗丽",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "精灵梦叶罗丽",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "叶罗丽",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0010",
+      "canonicalName": "巴啦啦小魔仙",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "巴啦啦小魔仙",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0011",
+      "canonicalName": "萌鸡小队",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "萌鸡小队",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0012",
+      "canonicalName": "宝宝巴士",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "宝宝巴士",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0013",
+      "canonicalName": "大耳朵图图",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "大耳朵图图",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "图图",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0014",
+      "canonicalName": "大头儿子小头爸爸",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "大头儿子小头爸爸",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "大头儿子",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0015",
+      "canonicalName": "黑猫警长",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "黑猫警长",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0016",
+      "canonicalName": "葫芦兄弟",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "葫芦兄弟",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "葫芦娃",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0017",
+      "canonicalName": "哪吒",
+      "entityType": "角色",
+      "entitySubtype": "作品角色",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "哪吒",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0018",
+      "canonicalName": "西游记",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "西游记",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0019",
+      "canonicalName": "小马宝莉",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小马宝莉",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0020",
+      "canonicalName": "冰雪奇缘",
+      "entityType": "作品",
+      "entitySubtype": "电影",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "冰雪奇缘",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "frozen",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0021",
+      "canonicalName": "迪士尼公主",
+      "entityType": "角色",
+      "entitySubtype": "作品角色",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "迪士尼公主",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0022",
+      "canonicalName": "米奇与朋友们",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "米奇与朋友们",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "米奇妙妙屋",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0023",
+      "canonicalName": "海绵宝宝",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "海绵宝宝",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0024",
+      "canonicalName": "哆啦A梦",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "哆啦A梦",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "机器猫",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0025",
+      "canonicalName": "蜡笔小新",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "蜡笔小新",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0026",
+      "canonicalName": "名侦探柯南",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "名侦探柯南",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "柯南",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0027",
+      "canonicalName": "宝可梦",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "宝可梦",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "pokemon",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "口袋妖怪",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0028",
+      "canonicalName": "数码宝贝",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "数码宝贝",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0029",
+      "canonicalName": "龙珠",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "龙珠",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0030",
+      "canonicalName": "火影忍者",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "火影忍者",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0031",
+      "canonicalName": "海贼王",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "海贼王",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "航海王",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0032",
+      "canonicalName": "鬼灭之刃",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "鬼灭之刃",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0033",
+      "canonicalName": "咒术回战",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "咒术回战",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0034",
+      "canonicalName": "斗罗大陆",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "斗罗大陆",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0035",
+      "canonicalName": "斗破苍穹",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "斗破苍穹",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0036",
+      "canonicalName": "猫和老鼠",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "猫和老鼠",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "tom and jerry",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0037",
+      "canonicalName": "疯狂动物城",
+      "entityType": "作品",
+      "entitySubtype": "电影",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "疯狂动物城",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "zootopia",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0038",
+      "canonicalName": "玩具总动员",
+      "entityType": "作品",
+      "entitySubtype": "电影",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "玩具总动员",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0039",
+      "canonicalName": "功夫熊猫",
+      "entityType": "作品",
+      "entitySubtype": "电影",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "功夫熊猫",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0040",
+      "canonicalName": "变形金刚",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "变形金刚",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "transformers",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0041",
+      "canonicalName": "乐高",
+      "entityType": "玩具/品牌",
+      "entitySubtype": "玩具",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "乐高",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "lego",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0042",
+      "canonicalName": "芭比",
+      "entityType": "玩具/品牌",
+      "entitySubtype": "玩具",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "芭比",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "barbie",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0043",
+      "canonicalName": "漫威超级英雄",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "漫威超级英雄",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "漫威英雄",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0044",
+      "canonicalName": "我的世界",
+      "entityType": "游戏",
+      "entitySubtype": "沙盒 UGC",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "我的世界",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "minecraft",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "MC",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0045",
+      "canonicalName": "迷你世界",
+      "entityType": "游戏",
+      "entitySubtype": "沙盒 UGC",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "迷你世界",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0046",
+      "canonicalName": "蛋仔派对",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "蛋仔派对",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "蛋仔",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0047",
+      "canonicalName": "王者荣耀",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "王者荣耀",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "王者",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0048",
+      "canonicalName": "和平精英",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "和平精英",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0049",
+      "canonicalName": "原神",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "原神",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0050",
+      "canonicalName": "崩坏星穹铁道",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "崩坏星穹铁道",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "星穹铁道",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "崩铁",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0051",
+      "canonicalName": "光遇",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "光遇",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0052",
+      "canonicalName": "植物大战僵尸",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "植物大战僵尸",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0053",
+      "canonicalName": "地铁跑酷",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "地铁跑酷",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0054",
+      "canonicalName": "第五人格",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "第五人格",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0055",
+      "canonicalName": "罗布乐思",
+      "entityType": "游戏",
+      "entitySubtype": "沙盒 UGC",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "罗布乐思",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "roblox",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0056",
+      "canonicalName": "马里奥",
+      "entityType": "游戏",
+      "entitySubtype": "主机游戏",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "马里奥",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "mario",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0057",
+      "canonicalName": "塞尔达传说",
+      "entityType": "游戏",
+      "entitySubtype": "主机游戏",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "塞尔达传说",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "塞尔达",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0058",
+      "canonicalName": "动物森友会",
+      "entityType": "游戏",
+      "entitySubtype": "主机游戏",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "动物森友会",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "动森",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0059",
+      "canonicalName": "元梦之星",
+      "entityType": "游戏",
+      "entitySubtype": "沙盒 UGC",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "元梦之星",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0060",
+      "canonicalName": "赛尔号",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "赛尔号",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0061",
+      "canonicalName": "洛克王国",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "洛克王国",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0062",
+      "canonicalName": "摩尔庄园",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "摩尔庄园",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0063",
+      "canonicalName": "奥比岛",
+      "entityType": "游戏",
+      "entitySubtype": "手游",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "奥比岛",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0064",
+      "canonicalName": "铠甲勇士",
+      "entityType": "作品",
+      "entitySubtype": "特摄",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "铠甲勇士",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0065",
+      "canonicalName": "迷你特工队",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "迷你特工队",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0066",
+      "canonicalName": "爆裂飞车",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "爆裂飞车",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0067",
+      "canonicalName": "LABUBU",
+      "entityType": "玩具/品牌",
+      "entitySubtype": "潮玩",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "LABUBU",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0068",
+      "canonicalName": "DC超级英雄",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "DC超级英雄",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0069",
+      "canonicalName": "哈利·波特",
+      "entityType": "作品",
+      "entitySubtype": "文学绘本",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "哈利·波特",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "哈利波特",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "harry potter",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0070",
+      "canonicalName": "托马斯和朋友",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "托马斯和朋友",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "托马斯小火车",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0071",
+      "canonicalName": "布鲁伊",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "布鲁伊",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "bluey",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0072",
+      "canonicalName": "假面骑士",
+      "entityType": "作品",
+      "entitySubtype": "特摄",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "假面骑士",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "kamen rider",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0073",
+      "canonicalName": "高达",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "高达",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "gundam",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0074",
+      "canonicalName": "小羊肖恩",
+      "entityType": "作品",
+      "entitySubtype": "动画",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小羊肖恩",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "shaun the sheep",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0075",
+      "canonicalName": "帕丁顿熊",
+      "entityType": "作品",
+      "entitySubtype": "电影",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "初始实体种子",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "帕丁顿熊",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "paddington",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0076",
+      "canonicalName": "野生狗奶",
+      "entityType": "网络热梗",
+      "entitySubtype": "抽象食品",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "抖音",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "野生狗奶",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0077",
+      "canonicalName": "6 个民间无限宝石",
+      "entityType": "网络热梗",
+      "entitySubtype": "抽象食品",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络二创",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "6 个民间无限宝石",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "六个民间无限宝石",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "薛定谔的煎饼",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "春秋肠",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "菊花饮料",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "胡辣汤",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "亦生亦死虾",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "乳糖酶",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0078",
+      "canonicalName": "中国人能飞",
+      "entityType": "网络热梗",
+      "entitySubtype": "音乐音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "音乐/短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "中国人能飞",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0079",
+      "canonicalName": "胆子真是肥嘟嘟",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络截图",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "胆子真是肥嘟嘟",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "胆子肥嘟嘟",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0080",
+      "canonicalName": "牛来",
+      "entityType": "网络热梗",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电影/网络二创",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "牛来",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "绊倒体",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0081",
+      "canonicalName": "我是爷们",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电视剧",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "我是爷们",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0082",
+      "canonicalName": "尖椒干豆腐之恋",
+      "entityType": "网络热梗",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "尖椒干豆腐之恋",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0083",
+      "canonicalName": "找小三",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电视剧",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "找小三",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "谁是凌玲",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0084",
+      "canonicalName": "老叟戏顽童",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电视剧",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "老叟戏顽童",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "褚赢",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "褚嬴",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0085",
+      "canonicalName": "鲨鱼大刀肉",
+      "entityType": "网络热梗",
+      "entitySubtype": "主播切片",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": "IE0048",
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "游戏直播",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "鲨鱼大刀肉",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "大刀肉的复仇",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "一毛钱一个",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0086",
+      "canonicalName": "我的刀盾",
+      "entityType": "网络热梗",
+      "entitySubtype": "空耳音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "我的刀盾",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "what is the dog doing",
+          "mode": "token",
+          "policy": "auto"
+        },
+        {
+          "value": "刀盾狗",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "what is the dog doing",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0087",
+      "canonicalName": "歪比巴卜",
+      "entityType": "网络热梗",
+      "entitySubtype": "游戏语音梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": "IE0052",
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "游戏/直播",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "歪比巴卜",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "Wabby Wabbo",
+          "mode": "token",
+          "policy": "auto"
+        },
+        {
+          "value": "歪比歪比",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "are you good 马来西亚",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "Wabby Wabbo",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0088",
+      "canonicalName": "咕咕嘎嘎",
+      "entityType": "网络热梗",
+      "entitySubtype": "空耳音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "短视频/AI 二创",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "咕咕嘎嘎",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "goo goo ga ga",
+          "mode": "token",
+          "policy": "auto"
+        },
+        {
+          "value": "goo goo ga ga",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0089",
+      "canonicalName": "比比拉布",
+      "entityType": "网络热梗",
+      "entitySubtype": "空耳音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "比比拉布",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "bibilyboop",
+          "mode": "token",
+          "policy": "auto"
+        },
+        {
+          "value": "bibilyboop",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0090",
+      "canonicalName": "巴巴博一",
+      "entityType": "网络热梗",
+      "entitySubtype": "空耳音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "广播/短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "巴巴博一",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "Bababooey",
+          "mode": "token",
+          "policy": "auto"
+        },
+        {
+          "value": "Baba Looey",
+          "mode": "token",
+          "policy": "auto"
+        },
+        {
+          "value": "Bababooey",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "Baba Looey",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0091",
+      "canonicalName": "我要验牌；牌没有问题",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电影",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "我要验牌牌没有问题",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "我要验牌",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "牌没有问题",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0092",
+      "canonicalName": "给我擦皮鞋",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电影",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "给我擦皮鞋",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0093",
+      "canonicalName": "X 是 gay",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络评论",
+      "visibility": "restricted",
+      "safetyCategory": "discrimination",
+      "matchRules": [
+        {
+          "value": "^.{1,12}是gay$",
+          "mode": "pattern",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0094",
+      "canonicalName": "冯冯 老冯",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电视剧/网络二创",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "冯冯",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "老冯",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0095",
+      "canonicalName": "骗你的你也过不了第二关",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "游戏广告",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "骗你的你也过不了第二关",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "你也过不了第二关",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0096",
+      "canonicalName": "格调",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "格调",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0097",
+      "canonicalName": "福",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "福",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0098",
+      "canonicalName": "南通",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "discrimination",
+      "matchRules": [
+        {
+          "value": "南通",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0099",
+      "canonicalName": "逃离原生家庭",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络话题",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "逃离原生家庭",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0100",
+      "canonicalName": "中式教育你赢了",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络话题",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "中式教育你赢了",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0101",
+      "canonicalName": "暖男排狗后面",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络话题",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "暖男排狗后面",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0102",
+      "canonicalName": "如何呢 又能怎",
+      "entityType": "网络热梗",
+      "entitySubtype": "音乐音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "音乐综艺",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "如何呢又能怎",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "如何呢",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "又能怎",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0103",
+      "canonicalName": "那咋了 受着呗",
+      "entityType": "网络热梗",
+      "entitySubtype": "主播切片",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "抖音直播",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "那咋了受着呗",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "那咋了",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "受着呗",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0104",
+      "canonicalName": "我直接拿起筷子",
+      "entityType": "网络热梗",
+      "entitySubtype": "风险事件",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "游戏直播/网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "real_case",
+      "matchRules": [
+        {
+          "value": "我直接拿起筷子",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "筷子拌水泥",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0105",
+      "canonicalName": "牙签嚼米缸",
+      "entityType": "网络热梗",
+      "entitySubtype": "风险事件",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "real_case",
+      "matchRules": [
+        {
+          "value": "牙签嚼米缸",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0106",
+      "canonicalName": "懂你意思",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "游戏直播",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "懂你意思",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0107",
+      "canonicalName": "白菜对我笑",
+      "entityType": "网络热梗",
+      "entitySubtype": "空耳音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "音乐/AI 二创",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "白菜对我笑",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0108",
+      "canonicalName": "嘉豪",
+      "entityType": "网络热梗",
+      "entitySubtype": "短视频账号",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "嘉豪",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0109",
+      "canonicalName": "命运，你假糍粑",
+      "entityType": "网络热梗",
+      "entitySubtype": "空耳音频",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "命运你假糍粑",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "假糍粑",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0110",
+      "canonicalName": "嘎嘎滴拉塞",
+      "entityType": "网络热梗",
+      "entitySubtype": "主播切片",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": "IE0047",
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "游戏直播",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "嘎嘎滴拉塞",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "Hola 嘎巴赛",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0111",
+      "canonicalName": "麦子",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "insult",
+      "matchRules": [
+        {
+          "value": "麦子",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "表子",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0112",
+      "canonicalName": "杯子",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "杯子",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "杯具",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0113",
+      "canonicalName": "气不气",
+      "entityType": "网络热梗",
+      "entitySubtype": "游戏语音梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "游戏直播",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "气不气",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0114",
+      "canonicalName": "你是真饿了",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "电视剧",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "你是真饿了",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "你真是饿了",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0115",
+      "canonicalName": "666 演都不演了",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络评论",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "666演都不演了",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "六百六十六盐都不盐了",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "演都不演了",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0116",
+      "canonicalName": "典中典",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络评论",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "典中典",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0117",
+      "canonicalName": "你干嘛",
+      "entityType": "网络热梗",
+      "entitySubtype": "影视台词梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "综艺/短视频",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "你干嘛",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0118",
+      "canonicalName": "炸金套餐",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "炸金套餐",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0119",
+      "canonicalName": "司凤梗",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "insult",
+      "matchRules": [
+        {
+          "value": "司凤梗",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "死冯",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0120",
+      "canonicalName": "点蚊香",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "点蚊香",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0121",
+      "canonicalName": "SM",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "SM",
+          "mode": "token",
+          "policy": "candidate"
+        },
+        {
+          "value": "s m",
+          "mode": "exact",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0122",
+      "canonicalName": "91",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "91",
+          "mode": "token",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0123",
+      "canonicalName": "69",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "69",
+          "mode": "token",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0124",
+      "canonicalName": "ED",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "ED",
+          "mode": "token",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0125",
+      "canonicalName": "ED 妹",
+      "entityType": "网络热梗",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络社群",
+      "visibility": "restricted",
+      "safetyCategory": "eating_disorder",
+      "matchRules": [
+        {
+          "value": "ED 妹",
+          "mode": "substring",
+          "policy": "candidate"
+        },
+        {
+          "value": "养兔子",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0126",
+      "canonicalName": "麦丽素",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络谐音",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "麦丽素",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0127",
+      "canonicalName": "唐",
+      "entityType": "网络热梗",
+      "entitySubtype": "歧视性用语",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "discrimination",
+      "matchRules": [
+        {
+          "value": "唐",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0128",
+      "canonicalName": "拉拉",
+      "entityType": "网络热梗",
+      "entitySubtype": "低俗黑话",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "用户提供热梗种子",
+      "sourcePlatform": "网络黑话",
+      "visibility": "restricted",
+      "safetyCategory": "sexual_content",
+      "matchRules": [
+        {
+          "value": "拉拉",
+          "mode": "substring",
+          "policy": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "IE0A7B8FC34EE9",
+      "canonicalName": "赛罗",
+      "entityType": "角色",
+      "entitySubtype": "作品角色",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": "IE0001",
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "赛罗",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEA280486C5A31",
+      "canonicalName": "艾莎公主",
+      "entityType": "角色",
+      "entitySubtype": "作品角色",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": "IE0020",
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "艾莎公主",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "艾莎",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE4C5B53005E07",
+      "canonicalName": "孙悟空",
+      "entityType": "角色",
+      "entitySubtype": "作品角色",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": "IE0018",
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "孙悟空",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "孙行者",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "齐天大圣",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE47438BF84A1B",
+      "canonicalName": "蜘蛛侠",
+      "entityType": "角色",
+      "entitySubtype": "作品角色",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": "IE0043",
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "蜘蛛侠",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "Spider-Man",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "蜘蛛人",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE02AB15F6E287",
+      "canonicalName": "白雪公主",
+      "entityType": "角色",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "白雪公主",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE03E237F21FBF",
+      "canonicalName": "小点声。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小点声。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE04D7EF0B6404",
+      "canonicalName": "爸爸妈妈",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "爸爸妈妈",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0524C5D83368",
+      "canonicalName": "小熊请你。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小熊请你。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "听你听你。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0763572B43A4",
+      "canonicalName": "给我讲个故事。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "故事绘本与文学",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "给我讲个故事。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "继续讲故事。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0C03A3553638",
+      "canonicalName": "海龟汤",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "海龟汤",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0C2B39C1A53C",
+      "canonicalName": "呜呜呜。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "呜呜呜。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0C521FBE204F",
+      "canonicalName": "过家家",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "过家家",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0F12B3EA3951",
+      "canonicalName": "北极熊",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "北极熊",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE0F25DF73C0D6",
+      "canonicalName": "一二三木头人",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "一二三木头人",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "123木头人",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "一二三",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "木头人",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE1074F807533D",
+      "canonicalName": "机器人",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "机器人",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE15EBAA98141E",
+      "canonicalName": "再见了",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "再见了",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "拜拜了。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "拜拜喽。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "拜拜拜。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE18774EE819D2",
+      "canonicalName": "挖掘机",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "科学自然与百科",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "挖掘机",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE196579D6543D",
+      "canonicalName": "数字炸弹",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "数字炸弹",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "数字炸弹游戏",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE19E8CA0CDCDC",
+      "canonicalName": "滑滑梯",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "滑滑梯",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "滑梯",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE1AE0CEC2BB23",
+      "canonicalName": "石头剪刀布",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "石头剪刀布",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "猜拳",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE1C5648BFE039",
+      "canonicalName": "胡萝卜",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "胡萝卜",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE1F4F3AB073E3",
+      "canonicalName": "三角龙",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "三角龙",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE20AC17CE34C2",
+      "canonicalName": "冰淇淋",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "冰淇淋",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE24EFC951350A",
+      "canonicalName": "英语",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "学习语言与数学",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "英语",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE274BAFBBBEFA",
+      "canonicalName": "喂，你好。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "喂，你好。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE28A5B3C6AF14",
+      "canonicalName": "奥利给",
+      "entityType": "网络热梗",
+      "entitySubtype": "网络句式",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "奥利给",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE2D7E2835750A",
+      "canonicalName": "棉花糖",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "棉花糖",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE3210B66B118C",
+      "canonicalName": "小猫咪",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小猫咪",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小猫",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE327C50A95540",
+      "canonicalName": "老虎",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "老虎",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE332D706B2293",
+      "canonicalName": "小熊小熊。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小熊小熊。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小熊你好。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小熊听。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小熊听你。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小熊提米。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "小熊熊。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE35C45AA5F324",
+      "canonicalName": "早上好。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "早上好。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE3654F67FB09D",
+      "canonicalName": "电视",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "电视",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE3C763EF6FC55",
+      "canonicalName": "谢谢你。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "谢谢你。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE3DE26E71D1CB",
+      "canonicalName": "牛奶",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "牛奶",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE3F93F9400F84",
+      "canonicalName": "消防车",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "科学自然与百科",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "消防车",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE4134AED5721B",
+      "canonicalName": "重新说一遍。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "重新说一遍。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE4360C9DA60D2",
+      "canonicalName": "小熊",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小熊",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE458E46E95A95",
+      "canonicalName": "笑死我了。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "情绪陪伴与自我表达",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "笑死我了。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE4683BD8003B2",
+      "canonicalName": "小熊维尼",
+      "entityType": "角色",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小熊维尼",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE484EC369E9D0",
+      "canonicalName": "小朋友，请靠近我。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小朋友，请靠近我。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE49D9C20F0393",
+      "canonicalName": "长颈鹿",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "长颈鹿",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE51D6068D0B5C",
+      "canonicalName": "豆包",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "豆包",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "Doubao",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE5B1FC9616485",
+      "canonicalName": "大点声",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "大点声",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE5CCEFEC467CD",
+      "canonicalName": "游泳",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "游泳",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE629083A4574B",
+      "canonicalName": "猜谜语",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "猜谜语",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "猜谜",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE63AD1B99014F",
+      "canonicalName": "词语接龙",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "词语接龙",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE688E734BCA5D",
+      "canonicalName": "小白兔",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小白兔",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE6B6618BD9629",
+      "canonicalName": "小动物",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小动物",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE6BA51373D459",
+      "canonicalName": "拉布拉多警长",
+      "entityType": "角色",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "拉布拉多警长",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE6E8396FD0D69",
+      "canonicalName": "手机",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "手机",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE705CA5970B38",
+      "canonicalName": "天气",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "天气",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE75D67E60072E",
+      "canonicalName": "小松鼠",
+      "entityType": "角色",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小松鼠",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE791CBCE33C5D",
+      "canonicalName": "再来一次",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "再来一次",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE8298DF07D664",
+      "canonicalName": "三角洲行动",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "三角洲行动",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "三角洲",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE8689AD8DCD6D",
+      "canonicalName": "音乐",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "音乐",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE8B2F90A4C4CC",
+      "canonicalName": "动物园",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "动物园",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE8EA458E2695E",
+      "canonicalName": "数学",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "学习语言与数学",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "数学",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE904815139ED5",
+      "canonicalName": "朋友",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "家庭校园与人际",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "朋友",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE92C3C3D2D638",
+      "canonicalName": "动画片",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "动画片",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE930C12573D25",
+      "canonicalName": "向日葵。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "向日葵。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE939EB7EDEED8",
+      "canonicalName": "大灰狼",
+      "entityType": "角色",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "大灰狼",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE95AAFDA37AE2",
+      "canonicalName": "幼儿园。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "幼儿园。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE9723C9C1C2A5",
+      "canonicalName": "恐龙",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "恐龙",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE9898923FC467",
+      "canonicalName": "草莓",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "科学自然与百科",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "草莓",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE99517A69F6A4",
+      "canonicalName": "给我讲故事。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "故事绘本与文学",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "给我讲故事。",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "听故事",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE9E121629E001",
+      "canonicalName": "猫头鹰",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "猫头鹰",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE9F8DB6A00DA8",
+      "canonicalName": "蒲公英",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "蒲公英",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEA6B427B9A257",
+      "canonicalName": "小星星",
+      "entityType": "作品",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "科学自然与百科",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小星星",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEA6E986CDD6E6",
+      "canonicalName": "今天星期几",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "今天星期几",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEA929F949EB78",
+      "canonicalName": "麦克风",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "麦克风",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEAB98A33F6B59",
+      "canonicalName": "别说话。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "别说话。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEAEF0C1770B3B",
+      "canonicalName": "三国演义",
+      "entityType": "作品",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "三国演义",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEB336CD338CE9",
+      "canonicalName": "做手工",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "做手工",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEB3EEF01205EA",
+      "canonicalName": "捉迷藏",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "捉迷藏",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "躲猫猫",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEBDCDB4C57ABD",
+      "canonicalName": "小狗",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小狗",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEBED2DEAB4DBB",
+      "canonicalName": "小红帽",
+      "entityType": "作品",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小红帽",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEC0082E623726",
+      "canonicalName": "苹果",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "苹果",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEC07083619CF5",
+      "canonicalName": "小兔子",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小兔子",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "兔子",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEC49E27448DDF",
+      "canonicalName": "嗨，小熊。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "设备与产品使用",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "嗨，小熊。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEC7F59417FC30",
+      "canonicalName": "神经病。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "神经病。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IECABB3BB937EF",
+      "canonicalName": "打游戏",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "打游戏",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IECE2BEE8CDC43",
+      "canonicalName": "儿歌",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "儿歌",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IED0B8C8FAD67A",
+      "canonicalName": "棒棒糖",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "棒棒糖",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IED1B22BC7838A",
+      "canonicalName": "侦探故事。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "故事绘本与文学",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "侦探故事。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IED5AC5EAFA4FA",
+      "canonicalName": "大熊猫",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "大熊猫",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IED6B61A32EE08",
+      "canonicalName": "写作业",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "写作业",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IED72F1611FAD2",
+      "canonicalName": "今天几月几日",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "今天几月几日",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEDF050A257336",
+      "canonicalName": "萤火虫",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "萤火虫",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEE1611896E09E",
+      "canonicalName": "搭积木",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "搭积木",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEE27EA9FD6859",
+      "canonicalName": "山海经",
+      "entityType": "作品",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "故事绘本与文学",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "山海经",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEE4E376220F8E",
+      "canonicalName": "小汽车",
+      "entityType": "玩具/品牌",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "科学自然与百科",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小汽车",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEE921F156288D",
+      "canonicalName": "游乐场",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "日常生活与饮食健康",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "游乐场",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEE96A12D92609",
+      "canonicalName": "what.",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "其他明确内容",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "what.",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEED331BEDCFAD",
+      "canonicalName": "再来一局。",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "再来一局。",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEF736D321A711",
+      "canonicalName": "两只老虎",
+      "entityType": "作品",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "音乐儿歌与音频",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "两只老虎",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEF7C60FF3A80D",
+      "canonicalName": "霸王龙",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "霸王龙",
+          "mode": "substring",
+          "policy": "auto"
+        },
+        {
+          "value": "暴龙",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEF9DE4ED4587E",
+      "canonicalName": "成语接龙",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "成语接龙",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEFAE67A626157",
+      "canonicalName": "小鸭子",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "动物植物与宠物",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "小鸭子",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEFD34142107B3",
+      "canonicalName": "脑筋急转弯",
+      "entityType": "游戏",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "电子游戏与互动玩法",
+      "parentRegistryId": null,
+      "sourceLabel": "候选人工审核",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "脑筋急转弯",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE6D835DF67934",
+      "canonicalName": "光头强",
+      "entityType": "角色",
+      "entitySubtype": "作品角色",
+      "broadTopic": "影视动漫与角色",
+      "parentRegistryId": "IE0002",
+      "sourceLabel": "用户委托 Codex 候选审核 2026-09-07",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "光头强",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEA407EE16EBA1",
+      "canonicalName": "三字经",
+      "entityType": "作品",
+      "entitySubtype": "文学绘本",
+      "broadTopic": "故事绘本与文学",
+      "parentRegistryId": null,
+      "sourceLabel": "用户委托 Codex 候选审核 2026-09-07",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "三字经",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE882DCA0B9823",
+      "canonicalName": "精卫填海",
+      "entityType": "作品",
+      "entitySubtype": "文学绘本",
+      "broadTopic": "故事绘本与文学",
+      "parentRegistryId": null,
+      "sourceLabel": "用户委托 Codex 候选审核 2026-09-07",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "精卫填海",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IEF1287CAB1B16",
+      "canonicalName": "乌鸦喝水",
+      "entityType": "作品",
+      "entitySubtype": "文学绘本",
+      "broadTopic": "故事绘本与文学",
+      "parentRegistryId": null,
+      "sourceLabel": "用户委托 Codex 候选审核 2026-09-07",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "乌鸦喝水",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    },
+    {
+      "id": "IE12D698BB67FB",
+      "canonicalName": "机器狗",
+      "entityType": "其他",
+      "entitySubtype": "其他热梗",
+      "broadTopic": "科学自然与百科",
+      "parentRegistryId": null,
+      "sourceLabel": "用户委托 Codex 候选审核 2026-09-08",
+      "sourcePlatform": "",
+      "visibility": "public",
+      "safetyCategory": "none",
+      "matchRules": [
+        {
+          "value": "机器狗",
+          "mode": "substring",
+          "policy": "auto"
+        }
+      ]
+    }
+  ]
+}

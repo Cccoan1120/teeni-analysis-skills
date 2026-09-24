@@ -11,7 +11,7 @@ Use the `interest_engine/` package and Django management commands in this reposi
 
 - Accept verified `teeni-base-detail/1.2.0` packages and their base manifests. M1 is scene 488; M2 is scene 904. Raw exports first need `$analyze-teeni-conversations`.
 - Derive the product from the manifest and CSV scene fields, not filenames. Each batch contains one product and 1-7 consecutive dates; daily work uses one date.
-- Use the versioned registry in `interest_engine/resources/entity-registry-v1.json`, or an explicitly reviewed replacement. Bind the registry and every input with SHA-256 in the batch manifest. Candidate discovery does not approve new entities.
+- Use the frozen `db-v3` registry in `interest_engine/resources/entity-registry.db-v3.json` (SHA-256 `6c1f0d701146f73cb16d222ff60c45d003896e940debd05e2085fd57a069d3f2`), or an explicitly reviewed replacement. The batch manifest must point to that exact file or an identical private copy and bind it and every input with SHA-256. Candidate discovery does not approve new entities.
 - Classify locally by default. Do not invoke the optional candidate model or send conversation text outside the analyst machine without explicit authorization.
 - Keep `teeni-interest-detail.csv` and `teeni-interest-detail.safe.csv` private. The first contains original query/reply and readable `entity_names` without `entity_ids`; the second contains pseudonymous IDs and classification evidence. Neither is a public dashboard download.
 - Preserve the engine's per-entity signals, preference direction, unknown-behavior, context-inheritance and demographic contracts. Attention, active interest and satisfaction are different claims.

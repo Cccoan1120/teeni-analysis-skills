@@ -33,7 +33,7 @@ $env:TEENI_PUBLISH_TOKEN = '<管理员提供的令牌>'
 
 ## 兴趣分析与发布
 
-使用同产品、同日期的已验证基础明细 CSV 与清单。冻结实体库副本，在仓库外创建 `teeni-interest-batch/1.0.0` 清单，按[兴趣 Skill](.agents/skills/analyze-teeni-interests/SKILL.md)记录实体库、基础明细和基础清单的 SHA-256。从仓库根目录运行：
+使用同产品、同日期的已验证基础明细 CSV 与清单。默认实体库是 `interest_engine/resources/entity-registry.db-v3.json`，含 232 个已审核实体，SHA-256 为 `6c1f0d701146f73cb16d222ff60c45d003896e940debd05e2085fd57a069d3f2`，与 2026-09-23 兴趣清单使用的实体库一致。单日 CLI 默认使用此文件；批量分析须在仓库外创建 `teeni-interest-batch/1.0.0` 清单，显式指向该文件或相同哈希的私有副本，并按[兴趣 Skill](.agents/skills/analyze-teeni-interests/SKILL.md)记录实体库、基础明细和基础清单的 SHA-256。从仓库根目录运行：
 
 ```powershell
 .\.venv\Scripts\python.exe -m interest_engine.batch_cli analyze --manifest '<本地 batch.json>' --output-dir '<新的私有输出目录>' --cache-dir '<私有缓存目录>'
