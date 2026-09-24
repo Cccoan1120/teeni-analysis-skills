@@ -1,0 +1,13 @@
+node_modules/
+outputs/
+previews/
+test-runs/
+.tmp/
+__pycache__/
+*.pyc
+*.csv
+*.xlsx
+*.ndjson
+*.log
+Thumbs.db
+.DS_Store

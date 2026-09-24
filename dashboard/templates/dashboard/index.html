@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Teeni 数据看板</title>
+    <link rel="icon" href="{% static 'dashboard/brand/mascot.png' %}" />
+    <link rel="stylesheet" href="{% static 'dashboard/assets/dashboard.css' %}" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.__TEENI_SESSION__ = {
+        email: "{{ request.user.email|default:request.user.username|escapejs }}",
+        isAdmin: {{ request.user.is_staff|yesno:"true,false" }},
+        csrfToken: "{{ csrf_token|escapejs }}"
+      };
+    </script>
+    <script type="module" src="{% static 'dashboard/assets/dashboard.js' %}"></script>
+  </body>
+</html>

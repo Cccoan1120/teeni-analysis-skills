@@ -1,0 +1,4 @@
+interface:
+  display_name: "Teeni 对话与双侧安全分析"
+  short_description: "纯本地分析Teeni对话、画像与双侧安全候选"
+  default_prompt: "使用 $analyze-teeni-conversations 在本地分析 Teeni 原始 CSV，并生成含所在地、星座、AI 回复与用户 Query 独立安全审核的可验证基础包。"

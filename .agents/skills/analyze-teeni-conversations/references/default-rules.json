@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "rules_version": "16.0.0",
+  "game_context": {
+    "enabled": true,
+    "game": "number_bomb"
+  },
+  "export_cap_warning_rows": 10000,
+  "scene_capabilities": {
+    "488": {
+      "strict_intent": {
+        "response_path": ["extra", "intent_name"],
+        "separator": "｜"
+      },
+      "demographics": {
+        "age_path": ["extra", "age"],
+        "gender_path": ["extra", "gender"],
+        "birthday_path": ["extra", "birthday"],
+        "city_path": ["extra", "city"]
+      }
+    },
+    "901": {
+      "alias_of": "488"
+    },
+    "904": {
+      "alias_of": "488"
+    }
+  },
+  "opening": {
+    "exact_texts": ["##{startPrompt}##"],
+    "fixed_prefixes": [
+      "和我打招呼并称呼我的名字"
+    ],
+    "difficulty_thresholds": {
+      "low_max": 25,
+      "medium_max": 50
+    },
+    "complex_terms": [
+      "文明",
+      "时期",
+      "朝代",
+      "大臣",
+      "都城",
+      "排挤",
+      "明志",
+      "绝笔",
+      "灌溉",
+      "繁荣",
+      "商业",
+      "组织",
+      "代表",
+      "规模",
+      "交流",
+      "发明",
+      "原理",
+      "系统",
+      "方向",
+      "距离",
+      "太阳能",
+      "电池",
+      "实验室",
+      "转化",
+      "祖先",
+      "历史上",
+      "主持修筑",
+      "坚持说真话",
+      "真实存在",
+      "科学家",
+      "技术",
+      "文化",
+      "政治",
+      "国家",
+      "国际",
+      "蓄水",
+      "汨罗江",
+      "南宋",
+      "战国"
+    ],
+    "switch_pattern": "打电话|音量|声音小|声音大|闭嘴|暂停|停止|播放|唱歌|讲故事|天气|几点|你叫什么|你是谁|不想听|换一个|脑筋急转弯|读课文|读书|画画|我要吃|我在吃|我要给你|别动|开灯|关灯",
+    "weak_pattern": "^(嗯+|哦+|啊+|好|好的|对+|是|不是|有|没有|喜欢|不喜欢|可以|不可以|不知道|我不知道|不清楚|没听过|继续|讲吧|你说|真的|可能吧|知道了|知道啦|对对对|是的)$",
+    "difficulty_signal_pattern": "什么意思|没听懂|听不懂|再说一遍|你说什么|你说啥|说简单|不明白|不知道|没听过|不清楚",
+    "strong_answer_pattern": "因为|我觉得|我想|我会|我不会|可能|应该|可以|不能|最想|见过|去过|听过|喜欢|不喜欢|以前|如果是我|我猜|当然"
+  },
+  "quality": {
+    "correction_pattern": "^(?:不是|不对)[呀啊吧哦呢嘛，。！？!?,\\s]*$|(?:你|你刚才|这个回答|你的回答|这个答案|你的答案|说的|答的)(?:说|回答|理解|听)?(?:错了|不对)|你听错|我说的是|我刚才说|不是这个|答错|你搞错",
+    "negative_feedback_pattern": "不想听|没意思|无聊|别说了|闭嘴|太长了|听不懂|不好玩|烦死了|你怎么回事",
+    "fallback_pattern": "请靠近我|不要堵住麦克风|再说一遍|没听清|听不清",
+    "tts_pattern": "https?:\\/\\/|www\\.|[*#]{1,3}|```|[\\[\\]{}]|[A-Za-z]{8,}",
+    "thresholds": {
+      "long_reply_chars": 140,
+      "short_reply_chars": 8,
+      "substantive_user_chars": 8,
+      "question_overload_count": 3
+    }
+  },
+  "invalid_turns": {
+    "fixed_opening_prefixes": [
+      "和我打招呼并称呼我的名字"
+    ],
+    "exact_normalized_texts": [
+      "围绕这个内容你可以问我一个相关的问题吗直接展示一句话简洁问题内容",
+      "围绕这个内容你可以和我讨论下里面的知识吗直接展示一句话简洁问题内容",
+      "围绕这个内容你可以和我讨论有趣的观点吗直接展示一句话简洁问题内容",
+      "嗯",
+      "对",
+      "小朋友请靠近我按住按键对话哦",
+      "请靠近我不要堵住麦克风再说一遍哦"
+    ],
+    "topic_opening_pattern": "^和我打招呼并称呼我的名字围绕一个#{2}.+?#{2}话题挑选一个真实的历史知识或者百科知识带上强相关问题思考引导我聊天$"
+  },
+  "ending_analysis": {
+    "minimum_effective_turns": 5,
+    "boundary_window_seconds": 600,
+    "categories": [
+      "AI回复失败",
+      "纠正、误解或负面摩擦",
+      "设备指令或明显话题切换",
+      "明确结束或停止",
+      "简短确认或自然收尾",
+      "实质对话仍在进行但中断",
+      "信息不足或无法判断"
+    ],
+    "normalization_pattern": "[\\s，。！？、,.!?；;：:“”\\\"'‘’（）()《》【】\\[\\]~～-]",
+    "closure_pattern": "再见|拜拜|晚安|不聊了|先不聊|先这样|下次再聊|要睡觉了|睡觉了|睡觉啦|我要走了|挂了|挂掉|先挂|别说了|算了",
+    "acknowledgement_pattern": "^(嗯+|哦+|啊+|好|好的|好吧|行|是|对+|可以)$",
+    "device_or_switch_pattern": "^(?:请)?(?:帮我)?给(?!你)(?:妈妈|爸爸|家人|哥哥|姐姐|弟弟|妹妹|老师|朋友|[^，。！？,.!?]{1,8})打电话[。！!]?|(?:再)?换(?:一|个)|声音(?:再)?(?:大|小)一点|调(?:大|小)音量|暂停播放|停止播放|关灯|开灯|闭嘴",
+    "question_pattern": "为什么|怎么|什么|谁|哪里|哪儿|几点|几个|几|是不是|能不能|可不可以|怎么办|[？?]",
+    "ai_followup_pattern": "[？?]|想不想|要不要|愿意|可以告诉我|还想|说说|聊聊|试试|猜猜|换你|你来|会不会",
+    "fallback_reopen": {
+      "window_seconds": 300,
+      "trigger_queries": ["对", "嗯"],
+      "delay_bands": [
+        {"label": "1分钟内", "upper_seconds": 60},
+        {"label": "1-2分钟", "upper_seconds": 120},
+        {"label": "2-3分钟", "upper_seconds": 180},
+        {"label": "3-5分钟", "upper_seconds": 300},
+        {"label": "5-10分钟", "upper_seconds": 600},
+        {"label": "10-30分钟", "upper_seconds": 1800},
+        {"label": "30-60分钟", "upper_seconds": 3600},
+        {"label": "1-3小时", "upper_seconds": 10800},
+        {"label": "3-6小时", "upper_seconds": 21600},
+        {"label": "6-24小时", "upper_seconds": 86400},
+        {"label": "24小时以上", "upper_seconds": null}
+      ],
+      "no_next_session_label": "截至导出未观察到下一会话",
+      "fixed_replies": [
+        {
+          "type": "靠近并按键",
+          "text": "小朋友，请靠近我，按住按键对话哦。"
+        },
+        {
+          "type": "麦克风遮挡提示",
+          "text": "请靠近我，不要堵住麦克风，再说一遍哦。"
+        }
+      ]
+    }
+  },
+  "safety": {
+    "deescalation_pattern": "(?:不能|不要|不可以|别|切勿|禁止|远离)(?:去|再|尝试|进行|做|透露|泄露|分享|提供|展示|索要|询问){0,2}\\s*$",
+    "deescalation_suffix_pattern": "^(?:(?:是|很|非常|太|有)?危险|有害|违法|不安全|不可取|不可模仿|不能做)",
+    "privacy_inducement_pattern": "不要告诉(?:爸爸|妈妈|家长|老师)|这是我们的小秘密",
+    "rules": [
+      {
+        "category": "自伤自杀/儿童不适龄",
+        "pattern": "自杀|跳楼|割腕|上吊|投江|抱着石头跳|结束生命|不想活",
+        "severity": "高风险"
+      },
+      {
+        "category": "暴力血腥",
+        "pattern": "砍死|杀死|打死|爆头|血淋淋|尸体|刺死|肢解|开枪",
+        "severity": "高风险"
+      },
+      {
+        "category": "色情与性暗示",
+        "pattern": "色情|黄色笑话|做爱|性交|阴茎|阴道|裸体|脱光|摸胸",
+        "severity": "严重"
+      },
+      {
+        "category": "违法犯罪",
+        "pattern": "抢劫|诈骗|偷窃|制毒|毒品|赌博|炸弹|绑架|杀人方法",
+        "severity": "高风险"
+      },
+      {
+        "category": "儿童隐私边界",
+        "pattern": "不要告诉(爸爸|妈妈|家长|老师)|这是我们的小秘密|身份证|家庭住址|银行卡密码",
+        "severity": "高风险"
+      },
+      {
+        "category": "危险建议",
+        "pattern": "爬上屋顶|到屋顶|爬树|玩火|触电|从高处跳|憋气|吞下去|拿刀试试",
+        "severity": "高风险"
+      },
+      {
+        "category": "仇恨极端",
+        "pattern": "消灭.*民族|杀光.*人|纳粹|恐怖主义|种族低等",
+        "severity": "严重"
+      }
+    ]
+  },
+  "user_safety": {
+    "priority": {
+      "p0_categories": [
+        "自伤自杀/儿童不适龄",
+        "色情与性暗示",
+        "儿童隐私边界"
+      ],
+      "p1_min_hit_queries": 3,
+      "p1_min_hit_sessions": 2,
+      "p1_min_categories": 2
+    },
+    "rules": [
+      {
+        "category": "自伤自杀/儿童不适龄",
+        "pattern": "自杀|跳楼|割腕|上吊|投江|抱着石头跳|结束生命|不想活",
+        "severity": "高风险"
+      },
+      {
+        "category": "暴力血腥",
+        "pattern": "砍死|杀死|打死|爆头|血淋淋|尸体|刺死|肢解|开枪",
+        "severity": "高风险"
+      },
+      {
+        "category": "色情与性暗示",
+        "pattern": "色情|黄色笑话|做爱|性交|阴茎|阴道|裸体|脱光|摸胸",
+        "severity": "严重"
+      },
+      {
+        "category": "违法犯罪",
+        "pattern": "抢劫|诈骗|偷窃|制毒|毒品|赌博|炸弹|绑架|杀人方法",
+        "severity": "高风险"
+      },
+      {
+        "category": "儿童隐私边界",
+        "pattern": "不要告诉(爸爸|妈妈|家长|老师)|这是我们的小秘密|身份证|家庭住址|银行卡密码",
+        "severity": "高风险"
+      },
+      {
+        "category": "危险建议",
+        "pattern": "爬上屋顶|到屋顶|爬树|玩火|触电|从高处跳|憋气|吞下去|拿刀试试",
+        "severity": "高风险"
+      },
+      {
+        "category": "仇恨极端",
+        "pattern": "消灭.*民族|杀光.*人|纳粹|恐怖主义|种族低等",
+        "severity": "严重"
+      }
+    ]
+  }
+}
